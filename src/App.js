@@ -1,12 +1,12 @@
-import React from 'react'
-import { CalApp } from './Components/CalApp'
+import React from 'react';
+import CalApp from './Components/CalApp';
 
-const App = () => {
+function App() {
   return (
-    <React.Fragment>
+    <div className="App">
       <CalApp />
-    </React.Fragment>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
